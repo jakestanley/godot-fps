@@ -1,0 +1,6 @@
+.import/
+*.translation
+export_presets.cfg
+.mono/
+mono_crash*.json
+meshes/

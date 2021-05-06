@@ -48,13 +48,14 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.10804, 0 )
 fov = 110.0
 
 [node name="Path" type="Path" parent="Node/KinematicBody/CSGCylinder/Camera"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.479515, -0.573202, 0 )
 curve = SubResource( 2 )
 script = ExtResource( 6 )
 
 [node name="PathFollow" type="PathFollow" parent="Node/KinematicBody/CSGCylinder/Camera/Path"]
 
 [node name="crappy shotgun" type="MeshInstance" parent="Node/KinematicBody/CSGCylinder/Camera/Path/PathFollow"]
-transform = Transform( -1, 0, -1.50996e-07, 1.45519e-11, 1, 0, 1.50996e-07, 0, -1, 0.4, -0.5, 0.0500002 )
+transform = Transform( -1, 0, -1.50996e-07, 1.45519e-11, 1, 0, 1.50996e-07, 0, -1, 0, 0, 0 )
 mesh = ExtResource( 3 )
 material/0 = null
 
